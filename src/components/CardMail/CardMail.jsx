@@ -10,8 +10,11 @@ import { MdLabelImportant } from "react-icons/md";
 
 export const CardMail = ({ mail, onClick }) => {
   const { id, username, title, body, date } = mail;
-  const [isStarred, setIsStarred] = useState(false);
-  const [isImportant, setIsImportant] = useState(false);
+  const importantMails = useMailStore((state) => state.importantMails);
+  const featuredEmails = useMailStore((state) => state.featuredEmails);
+
+  const isImportant = importantMails.some((m) => m.id === mail.id);
+  const isStarred = featuredEmails.some((m) => m.id === mail.id);
   const setSelectMail = useMailStore((state) => state.setSelectMails);
   const selectMails = useMailStore((state) => state.selectMails);
   const markAsImportant = useMailStore((state) => state.markAsImportant);
@@ -26,13 +29,11 @@ export const CardMail = ({ mail, onClick }) => {
 
   const handleStarClick = (e) => {
     e.stopPropagation();
-    setIsStarred(!isStarred);
     markAsFeatured(mail);
   };
 
   const handleImportantClick = (e) => {
     e.stopPropagation();
-    setIsImportant(!isImportant);
     markAsImportant(mail);
   };
 
@@ -68,17 +69,25 @@ export const CardMail = ({ mail, onClick }) => {
         />
       </button>
 
-      <h1 onClick={onClick} className="text-white font-medium w-[7%] mr-1.5">
+      <h1
+        onClick={onClick}
+        className="text-white font-medium w-[13%] mr-1.5 text-ellipsis max-[559px]:w-full"
+      >
         {username}
       </h1>
       <h2
         onClick={onClick}
-        className="text-white px-2 w-[10%] overflow-hidden text-nowrap text-ellipsis"
+        className="text-white px-2 w-[10%] overflow-hidden text-nowrap text-ellipsis max-[959px]:w-full max-[559px]:hidden"
       >
         {title}
       </h2>
-      <p onClick={onClick}> - </p>
-      <p onClick={onClick} className="truncate px-2 w-[55%] text-gray-400">
+      <p className="max-[559px]:hidden" onClick={onClick}>
+        -
+      </p>
+      <p
+        onClick={onClick}
+        className="truncate px-2 w-[55%] text-gray-400 max-[959px]:hidden"
+      >
         {body}
       </p>
       <div

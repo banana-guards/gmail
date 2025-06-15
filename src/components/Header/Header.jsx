@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Logo from "../../assets/logo.png";
-import Perfil from "../../assets/jaguar.jpg";
+import Perfil from "../../assets/user.png";
 import { useNavigate } from "react-router";
 import { ModalHeader } from "./ModalHeader";
 

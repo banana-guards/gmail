@@ -61,19 +61,32 @@ export const useMailStore = create(
       },
 
       markAsImportant: (mail) => {
-        const current = get().importantMails;
-        if (!current.find((m) => m.id === mail.id)) {
-          set({ importantMails: [...current, mail] });
-        }
+        set((state) => {
+          const alreadyExists = state.importantMails.find(
+            (m) => m.id === mail.id
+          );
+
+          return {
+            importantMails: alreadyExists
+              ? state.importantMails.filter((m) => m.id !== mail.id)
+              : [...state.importantMails, mail],
+          };
+        });
       },
 
       markAsFeatured: (mail) => {
-        const current = get().featuredEmails;
-        if (!current.find((m) => m.id === mail.id)) {
-          set({ featuredEmails: [...current, mail] });
-        }
-      },
+        set((state) => {
+          const alreadyExists = state.featuredEmails.find(
+            (m) => m.id === mail.id
+          );
 
+          return {
+            featuredEmails: alreadyExists
+              ? state.featuredEmails.filter((m) => m.id !== mail.id)
+              : [...state.featuredEmails, mail],
+          };
+        });
+      },
       addSentMail: (newMail) => {
         set((state) => ({
           sendMails: [...state.sendMails, newMail],
