@@ -26,7 +26,7 @@ export const Mail = () => {
         title: `Re: ${title}`,
         username: "Jose Luis Herrera",
         mail: "herrera.clip@gmail.com",
-        body: respuesta,
+        body: request,
       };
       addSentMail(newMail);
     } catch (error) {
