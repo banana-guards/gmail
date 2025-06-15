@@ -3,7 +3,7 @@ import { IoReturnUpBack } from "react-icons/io5";
 import { useNavigate } from "react-router";
 import { useMailStore } from "../store/userMailStore";
 import { FaRobot } from "react-icons/fa";
-import { generarRespuestaCorreo } from "../services/gptReply";
+import { generateEmailResponse } from "../services/gptReply";
 
 export const Mail = () => {
   const navigate = useNavigate();
@@ -14,19 +14,13 @@ export const Mail = () => {
 
   const handleBack = () => navigate(-1);
 
-  if (!selectedMail) {
-    return (
-      <p className="text-white p-4">No se ha seleccionado ningún correo.</p>
-    );
-  }
-
   const { title, username, mail, body } = selectedMail;
 
   const handleReplyClick = async () => {
     try {
       setLoading(true);
-      const respuesta = await generarRespuestaCorreo(body);
-      setReply(respuesta);
+      const request = await generateEmailResponse(body);
+      setReply(request);
 
       const newMail = {
         title: `Re: ${title}`,
@@ -36,7 +30,7 @@ export const Mail = () => {
       };
       addSentMail(newMail);
     } catch (error) {
-      console.error("Error al generar respuesta:", error);
+      console.error(error);
       setReply("Hubo un error al generar la respuesta.");
     } finally {
       setLoading(false);

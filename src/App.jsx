@@ -1,6 +1,6 @@
 import { Mail } from "./pages/Mail";
 import { Route, Routes } from "react-router";
-import { WriteButton } from "./components/Buttons/WriteButton";
+import { WriteButton } from "./components/Buttons/WriteButton/WriteButton";
 import { Navbar } from "./components/Navbar";
 import { PanelMail } from "./pages/PanelMail";
 import { FeaturedMails } from "./pages/FeaturedMails";
