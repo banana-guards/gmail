@@ -20,7 +20,7 @@ export const useMailStore = create(
 
         try {
           const res = await fetch("/data/MockedMails.json");
-          const data = await res.json();
+          const { data } = await res.json();
 
           set({ mails: data });
         } catch (error) {

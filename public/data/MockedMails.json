@@ -1,322 +1,324 @@
-[
-  {
-    "id": 1,
-    "username": "Khan Academy",
-    "mail": "@khanacademy.org",
-    "title": "¡Aún hay tiempo para mantener esa racha! ⏲️",
-    "body": "Mantén tu racha activa completando una lección hoy.",
-    "date": "12 jun"
-  },
-  {
-    "id": 2,
-    "username": "GitHub",
-    "mail": "@github.com",
-    "title": "Tu repositorio ha sido clonado",
-    "body": "Alguien acaba de clonar tu repo público.",
-    "date": "10 jun"
-  },
-  {
-    "id": 3,
-    "username": "LinkedIn",
-    "mail": "@linkedin.com",
-    "title": "¡Mira quién ha visto tu perfil!",
-    "body": "3 personas vieron tu perfil esta semana.",
-    "date": "9 jun"
-  },
-  {
-    "id": 4,
-    "username": "Banorte",
-    "mail": "@banorte.com",
-    "title": "Promoción exclusiva para ti",
-    "body": "Gana un monedero Amazon al ahorrar $5,000.",
-    "date": "8 jun"
-  },
-  {
-    "id": 5,
-    "username": "Spotify",
-    "mail": "@spotify.com",
-    "title": "Descubre tu mezcla semanal",
-    "body": "Nuevas canciones que podrías amar.",
-    "date": "7 jun"
-  },
-  {
-    "id": 6,
-    "username": "Google",
-    "mail": "@google.com",
-    "title": "Revisión de seguridad recomendada",
-    "body": "Verifica tu actividad reciente por seguridad.",
-    "date": "6 jun"
-  },
-  {
-    "id": 7,
-    "username": "Amazon",
-    "mail": "@amazon.com",
-    "title": "Tu pedido ha sido enviado",
-    "body": "Llega entre el 10 y 12 de junio.",
-    "date": "5 jun"
-  },
-  {
-    "id": 8,
-    "username": "Notion",
-    "mail": "@notion.so",
-    "title": "Tips para ser más productivo",
-    "body": "3 nuevas plantillas que debes probar.",
-    "date": "4 jun"
-  },
-  {
-    "id": 9,
-    "username": "YouTube",
-    "mail": "@youtube.com",
-    "title": "Nuevo video de tu canal favorito",
-    "body": "Tu creador favorito subió un nuevo video.",
-    "date": "3 jun"
-  },
-  {
-    "id": 10,
-    "username": "Twitter",
-    "mail": "@twitter.com",
-    "title": "Revisa lo que te perdiste hoy",
-    "body": "Tus seguidores compartieron nuevas ideas.",
-    "date": "2 jun"
-  },
-  {
-    "id": 11,
-    "username": "Coursera",
-    "mail": "@coursera.org",
-    "title": "Nuevo curso recomendado",
-    "body": "Explora Machine Learning con Stanford.",
-    "date": "1 jun"
-  },
-  {
-    "id": 12,
-    "username": "Figma",
-    "mail": "@figma.com",
-    "title": "Actualización en tu archivo compartido",
-    "body": "Alguien hizo cambios en tu diseño.",
-    "date": "31 may"
-  },
-  {
-    "id": 13,
-    "username": "Slack",
-    "mail": "@slack.com",
-    "title": "Te mencionaron en #dev",
-    "body": "Revisa el último mensaje en el canal.",
-    "date": "30 may"
-  },
-  {
-    "id": 14,
-    "username": "Apple",
-    "mail": "@apple.com",
-    "title": "Tu recibo de compra",
-    "body": "Gracias por tu compra en la App Store.",
-    "date": "29 may"
-  },
-  {
-    "id": 15,
-    "username": "Dribbble",
-    "mail": "@dribbble.com",
-    "title": "Nuevas tendencias de diseño",
-    "body": "Inspírate con las creaciones de esta semana.",
-    "date": "28 may"
-  },
-  {
-    "id": 16,
-    "username": "Udemy",
-    "mail": "@udemy.com",
-    "title": "Curso en oferta por 24h",
-    "body": "Consigue el curso por solo $9.99.",
-    "date": "27 may"
-  },
-  {
-    "id": 17,
-    "username": "Steam",
-    "mail": "@steampowered.com",
-    "title": "Ofertas de verano ya disponibles",
-    "body": "Juegos hasta con 90% de descuento.",
-    "date": "26 may"
-  },
-  {
-    "id": 18,
-    "username": "Facebook",
-    "mail": "@facebook.com",
-    "title": "Tienes nuevos recuerdos hoy",
-    "body": "Mira lo que publicaste hace un año.",
-    "date": "25 may"
-  },
-  {
-    "id": 19,
-    "username": "Netflix",
-    "mail": "@netflix.com",
-    "title": "Nuevo contenido agregado",
-    "body": "Series y películas que podrían gustarte.",
-    "date": "24 may"
-  },
-  {
-    "id": 20,
-    "username": "Paypal",
-    "mail": "@paypal.com",
-    "title": "Recibiste un pago",
-    "body": "Tu balance ha sido actualizado.",
-    "date": "23 may"
-  },
-  {
-    "id": 21,
-    "username": "Bitso",
-    "mail": "@bitso.com",
-    "title": "Bitcoin al alza",
-    "body": "Revisa cómo se mueve el mercado.",
-    "date": "22 may"
-  },
-  {
-    "id": 22,
-    "username": "Discord",
-    "mail": "@discord.com",
-    "title": "Te invitaron a un servidor",
-    "body": "Únete al nuevo grupo de desarrollo.",
-    "date": "21 may"
-  },
-  {
-    "id": 23,
-    "username": "TikTok",
-    "mail": "@tiktok.com",
-    "title": "Alguien comentó tu video",
-    "body": "Tienes una nueva notificación.",
-    "date": "20 may"
-  },
-  {
-    "id": 24,
-    "username": "Gmail",
-    "mail": "@gmail.com",
-    "title": "Revisa tu espacio de almacenamiento",
-    "body": "Te queda menos del 15% disponible.",
-    "date": "19 may"
-  },
-  {
-    "id": 25,
-    "username": "Notion",
-    "mail": "@notion.so",
-    "title": "Nuevas plantillas de productividad",
-    "body": "Haz más en menos tiempo.",
-    "date": "18 may"
-  },
-  {
-    "id": 26,
-    "username": "OpenAI",
-    "mail": "@openai.com",
-    "title": "Prueba GPT-4 gratis",
-    "body": "Accede a nuevas funciones hoy mismo.",
-    "date": "17 may"
-  },
-  {
-    "id": 27,
-    "username": "Trello",
-    "mail": "@trello.com",
-    "title": "Tablero compartido actualizado",
-    "body": "Tareas nuevas han sido asignadas.",
-    "date": "16 may"
-  },
-  {
-    "id": 28,
-    "username": "Zoom",
-    "mail": "@zoom.us",
-    "title": "Tienes una reunión hoy",
-    "body": "Comienza a las 11:00 AM.",
-    "date": "15 may"
-  },
-  {
-    "id": 29,
-    "username": "Outlook",
-    "mail": "@outlook.com",
-    "title": "Tu bandeja está casi llena",
-    "body": "Limpia correos para evitar problemas.",
-    "date": "14 may"
-  },
-  {
-    "id": 30,
-    "username": "Twitter",
-    "mail": "@twitter.com",
-    "title": "Nuevas interacciones",
-    "body": "Tus tweets han recibido actividad.",
-    "date": "13 may"
-  },
-  {
-    "id": 31,
-    "username": "Dev.to",
-    "mail": "@dev.to",
-    "title": "Top 5 artículos de la semana",
-    "body": "Lee lo mejor en desarrollo web.",
-    "date": "12 may"
-  },
-  {
-    "id": 32,
-    "username": "Medium",
-    "mail": "@medium.com",
-    "title": "Historias que podrían interesarte",
-    "body": "Explora temas en tecnología y diseño.",
-    "date": "11 may"
-  },
-  {
-    "id": 33,
-    "username": "Canva",
-    "mail": "@canva.com",
-    "title": "Plantillas gratis disponibles",
-    "body": "Crea diseños en segundos.",
-    "date": "10 may"
-  },
-  {
-    "id": 34,
-    "username": "Behance",
-    "mail": "@behance.net",
-    "title": "Nuevo proyecto destacado",
-    "body": "Inspírate con el arte del día.",
-    "date": "9 may"
-  },
-  {
-    "id": 35,
-    "username": "Stack Overflow",
-    "mail": "@stackoverflow.com",
-    "title": "Tienes una nueva insignia",
-    "body": "Ganaste reputación por tu respuesta.",
-    "date": "8 may"
-  },
-  {
-    "id": 36,
-    "username": "Xiaomi",
-    "mail": "@mi.com",
-    "title": "Ofertas en dispositivos inteligentes",
-    "body": "Hasta 40% de descuento esta semana.",
-    "date": "7 may"
-  },
-  {
-    "id": 37,
-    "username": "Samsung",
-    "mail": "@samsung.com",
-    "title": "Tu garantía ha sido activada",
-    "body": "Cobertura válida por 12 meses.",
-    "date": "6 may"
-  },
-  {
-    "id": 38,
-    "username": "Mercado Libre",
-    "mail": "@mercadolibre.com",
-    "title": "Tu paquete está en camino",
-    "body": "Revisa el estado de tu envío.",
-    "date": "5 may"
-  },
-  {
-    "id": 39,
-    "username": "OneDrive",
-    "mail": "@onedrive.com",
-    "title": "Copia de seguridad completa",
-    "body": "Tus archivos están seguros.",
-    "date": "4 may"
-  },
-  {
-    "id": 40,
-    "username": "Calendly",
-    "mail": "@calendly.com",
-    "title": "Nueva cita agendada",
-    "body": "Martes, 12:00 PM con José.",
-    "date": "3 may"
-  }
-]
+{
+  "data": [
+    {
+      "id": 1,
+      "username": "Khan Academy",
+      "mail": "@khanacademy.org",
+      "title": "¡Aún hay tiempo para mantener esa racha! ⏲️",
+      "body": "Mantén tu racha activa completando una lección hoy.",
+      "date": "12 jun"
+    },
+    {
+      "id": 2,
+      "username": "GitHub",
+      "mail": "@github.com",
+      "title": "Tu repositorio ha sido clonado",
+      "body": "Alguien acaba de clonar tu repo público.",
+      "date": "10 jun"
+    },
+    {
+      "id": 3,
+      "username": "LinkedIn",
+      "mail": "@linkedin.com",
+      "title": "¡Mira quién ha visto tu perfil!",
+      "body": "3 personas vieron tu perfil esta semana.",
+      "date": "9 jun"
+    },
+    {
+      "id": 4,
+      "username": "Banorte",
+      "mail": "@banorte.com",
+      "title": "Promoción exclusiva para ti",
+      "body": "Gana un monedero Amazon al ahorrar $5,000.",
+      "date": "8 jun"
+    },
+    {
+      "id": 5,
+      "username": "Spotify",
+      "mail": "@spotify.com",
+      "title": "Descubre tu mezcla semanal",
+      "body": "Nuevas canciones que podrías amar.",
+      "date": "7 jun"
+    },
+    {
+      "id": 6,
+      "username": "Google",
+      "mail": "@google.com",
+      "title": "Revisión de seguridad recomendada",
+      "body": "Verifica tu actividad reciente por seguridad.",
+      "date": "6 jun"
+    },
+    {
+      "id": 7,
+      "username": "Amazon",
+      "mail": "@amazon.com",
+      "title": "Tu pedido ha sido enviado",
+      "body": "Llega entre el 10 y 12 de junio.",
+      "date": "5 jun"
+    },
+    {
+      "id": 8,
+      "username": "Notion",
+      "mail": "@notion.so",
+      "title": "Tips para ser más productivo",
+      "body": "3 nuevas plantillas que debes probar.",
+      "date": "4 jun"
+    },
+    {
+      "id": 9,
+      "username": "YouTube",
+      "mail": "@youtube.com",
+      "title": "Nuevo video de tu canal favorito",
+      "body": "Tu creador favorito subió un nuevo video.",
+      "date": "3 jun"
+    },
+    {
+      "id": 10,
+      "username": "Twitter",
+      "mail": "@twitter.com",
+      "title": "Revisa lo que te perdiste hoy",
+      "body": "Tus seguidores compartieron nuevas ideas.",
+      "date": "2 jun"
+    },
+    {
+      "id": 11,
+      "username": "Coursera",
+      "mail": "@coursera.org",
+      "title": "Nuevo curso recomendado",
+      "body": "Explora Machine Learning con Stanford.",
+      "date": "1 jun"
+    },
+    {
+      "id": 12,
+      "username": "Figma",
+      "mail": "@figma.com",
+      "title": "Actualización en tu archivo compartido",
+      "body": "Alguien hizo cambios en tu diseño.",
+      "date": "31 may"
+    },
+    {
+      "id": 13,
+      "username": "Slack",
+      "mail": "@slack.com",
+      "title": "Te mencionaron en #dev",
+      "body": "Revisa el último mensaje en el canal.",
+      "date": "30 may"
+    },
+    {
+      "id": 14,
+      "username": "Apple",
+      "mail": "@apple.com",
+      "title": "Tu recibo de compra",
+      "body": "Gracias por tu compra en la App Store.",
+      "date": "29 may"
+    },
+    {
+      "id": 15,
+      "username": "Dribbble",
+      "mail": "@dribbble.com",
+      "title": "Nuevas tendencias de diseño",
+      "body": "Inspírate con las creaciones de esta semana.",
+      "date": "28 may"
+    },
+    {
+      "id": 16,
+      "username": "Udemy",
+      "mail": "@udemy.com",
+      "title": "Curso en oferta por 24h",
+      "body": "Consigue el curso por solo $9.99.",
+      "date": "27 may"
+    },
+    {
+      "id": 17,
+      "username": "Steam",
+      "mail": "@steampowered.com",
+      "title": "Ofertas de verano ya disponibles",
+      "body": "Juegos hasta con 90% de descuento.",
+      "date": "26 may"
+    },
+    {
+      "id": 18,
+      "username": "Facebook",
+      "mail": "@facebook.com",
+      "title": "Tienes nuevos recuerdos hoy",
+      "body": "Mira lo que publicaste hace un año.",
+      "date": "25 may"
+    },
+    {
+      "id": 19,
+      "username": "Netflix",
+      "mail": "@netflix.com",
+      "title": "Nuevo contenido agregado",
+      "body": "Series y películas que podrían gustarte.",
+      "date": "24 may"
+    },
+    {
+      "id": 20,
+      "username": "Paypal",
+      "mail": "@paypal.com",
+      "title": "Recibiste un pago",
+      "body": "Tu balance ha sido actualizado.",
+      "date": "23 may"
+    },
+    {
+      "id": 21,
+      "username": "Bitso",
+      "mail": "@bitso.com",
+      "title": "Bitcoin al alza",
+      "body": "Revisa cómo se mueve el mercado.",
+      "date": "22 may"
+    },
+    {
+      "id": 22,
+      "username": "Discord",
+      "mail": "@discord.com",
+      "title": "Te invitaron a un servidor",
+      "body": "Únete al nuevo grupo de desarrollo.",
+      "date": "21 may"
+    },
+    {
+      "id": 23,
+      "username": "TikTok",
+      "mail": "@tiktok.com",
+      "title": "Alguien comentó tu video",
+      "body": "Tienes una nueva notificación.",
+      "date": "20 may"
+    },
+    {
+      "id": 24,
+      "username": "Gmail",
+      "mail": "@gmail.com",
+      "title": "Revisa tu espacio de almacenamiento",
+      "body": "Te queda menos del 15% disponible.",
+      "date": "19 may"
+    },
+    {
+      "id": 25,
+      "username": "Notion",
+      "mail": "@notion.so",
+      "title": "Nuevas plantillas de productividad",
+      "body": "Haz más en menos tiempo.",
+      "date": "18 may"
+    },
+    {
+      "id": 26,
+      "username": "OpenAI",
+      "mail": "@openai.com",
+      "title": "Prueba GPT-4 gratis",
+      "body": "Accede a nuevas funciones hoy mismo.",
+      "date": "17 may"
+    },
+    {
+      "id": 27,
+      "username": "Trello",
+      "mail": "@trello.com",
+      "title": "Tablero compartido actualizado",
+      "body": "Tareas nuevas han sido asignadas.",
+      "date": "16 may"
+    },
+    {
+      "id": 28,
+      "username": "Zoom",
+      "mail": "@zoom.us",
+      "title": "Tienes una reunión hoy",
+      "body": "Comienza a las 11:00 AM.",
+      "date": "15 may"
+    },
+    {
+      "id": 29,
+      "username": "Outlook",
+      "mail": "@outlook.com",
+      "title": "Tu bandeja está casi llena",
+      "body": "Limpia correos para evitar problemas.",
+      "date": "14 may"
+    },
+    {
+      "id": 30,
+      "username": "Twitter",
+      "mail": "@twitter.com",
+      "title": "Nuevas interacciones",
+      "body": "Tus tweets han recibido actividad.",
+      "date": "13 may"
+    },
+    {
+      "id": 31,
+      "username": "Dev.to",
+      "mail": "@dev.to",
+      "title": "Top 5 artículos de la semana",
+      "body": "Lee lo mejor en desarrollo web.",
+      "date": "12 may"
+    },
+    {
+      "id": 32,
+      "username": "Medium",
+      "mail": "@medium.com",
+      "title": "Historias que podrían interesarte",
+      "body": "Explora temas en tecnología y diseño.",
+      "date": "11 may"
+    },
+    {
+      "id": 33,
+      "username": "Canva",
+      "mail": "@canva.com",
+      "title": "Plantillas gratis disponibles",
+      "body": "Crea diseños en segundos.",
+      "date": "10 may"
+    },
+    {
+      "id": 34,
+      "username": "Behance",
+      "mail": "@behance.net",
+      "title": "Nuevo proyecto destacado",
+      "body": "Inspírate con el arte del día.",
+      "date": "9 may"
+    },
+    {
+      "id": 35,
+      "username": "Stack Overflow",
+      "mail": "@stackoverflow.com",
+      "title": "Tienes una nueva insignia",
+      "body": "Ganaste reputación por tu respuesta.",
+      "date": "8 may"
+    },
+    {
+      "id": 36,
+      "username": "Xiaomi",
+      "mail": "@mi.com",
+      "title": "Ofertas en dispositivos inteligentes",
+      "body": "Hasta 40% de descuento esta semana.",
+      "date": "7 may"
+    },
+    {
+      "id": 37,
+      "username": "Samsung",
+      "mail": "@samsung.com",
+      "title": "Tu garantía ha sido activada",
+      "body": "Cobertura válida por 12 meses.",
+      "date": "6 may"
+    },
+    {
+      "id": 38,
+      "username": "Mercado Libre",
+      "mail": "@mercadolibre.com",
+      "title": "Tu paquete está en camino",
+      "body": "Revisa el estado de tu envío.",
+      "date": "5 may"
+    },
+    {
+      "id": 39,
+      "username": "OneDrive",
+      "mail": "@onedrive.com",
+      "title": "Copia de seguridad completa",
+      "body": "Tus archivos están seguros.",
+      "date": "4 may"
+    },
+    {
+      "id": 40,
+      "username": "Calendly",
+      "mail": "@calendly.com",
+      "title": "Nueva cita agendada",
+      "body": "Martes, 12:00 PM con José.",
+      "date": "3 may"
+    }
+  ]
+}
