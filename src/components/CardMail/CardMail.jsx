@@ -3,10 +3,10 @@ import {
   MdOutlineCheckBoxOutlineBlank,
   MdOutlineCheckBox,
 } from "react-icons/md";
-import { FiStar } from "react-icons/fi";
-import { MdLabelImportantOutline } from "react-icons/md";
 import "./CardMail.css";
 import { useMailStore } from "../../store/userMailStore";
+import { GoStarFill } from "react-icons/go";
+import { MdLabelImportant } from "react-icons/md";
 
 export const CardMail = ({ mail, onClick }) => {
   const { id, username, title, body, date } = mail;
@@ -51,20 +51,20 @@ export const CardMail = ({ mail, onClick }) => {
       </button>
 
       <button onClick={handleStarClick}>
-        <FiStar
+        <GoStarFill
           className={`mr-1.5 ${
             isStarred ? "text-yellow-400" : "text-gray-400"
           }`}
-          size={20}
+          size={15}
         />
       </button>
 
       <button onClick={handleImportantClick}>
-        <MdLabelImportantOutline
+        <MdLabelImportant
           className={`mr-3 ${
             isImportant ? "text-yellow-400" : "text-gray-400"
           }`}
-          size={20}
+          size={17}
         />
       </button>
 
