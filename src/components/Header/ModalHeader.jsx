@@ -12,7 +12,13 @@ export const ModalHeader = ({ isOpen, closeModal }) => {
     >
       <h2 className="text-2xl font-bold mb-4 text-center">Jose Luis Herrera</h2>
       <p>
-        <strong>LinkedIn:</strong> linkedin/jose-luis-h-g
+        <strong>LinkedIn:</strong>{" "}
+        <a
+          href="https://www.linkedin.com/in/jose-luis-h-g/"
+          className="text-blue-600 visited:text-purple-600"
+        >
+          linkedin/jose-luis-h-g
+        </a>
       </p>
       <p>
         <strong>Teléfono:</strong> 618 146 7962
@@ -21,7 +27,13 @@ export const ModalHeader = ({ isOpen, closeModal }) => {
         <strong>Email:</strong> herrera.clip@gmail.com
       </p>
       <p>
-        <strong>GitHub:</strong> github.com/banana-guards
+        <strong>GitHub:</strong>{" "}
+        <a
+          href="https://github.com/banana-guards"
+          className="text-blue-600 visited:text-purple-600"
+        >
+          github.com/banana-guards
+        </a>
       </p>
 
       <hr className="my-3" />
@@ -57,7 +69,15 @@ export const ModalHeader = ({ isOpen, closeModal }) => {
       </p>
 
       <h3 className="font-semibold mt-3">Cursos y Certificados</h3>
-      <p>Tailwind, CSS, GIT, Networking, Data Science (ver carpeta en Drive)</p>
+      <p>
+        Tailwind, CSS, GIT, Networking, Data Science{" "}
+        <a
+          href="https://drive.google.com/drive/folders/1IfqFZatyxLDPpC1SBhemRHQTT9IJAGQ5?usp=sharing"
+          className="text-blue-600 visited:text-purple-600"
+        >
+          (ver carpeta en Drive)
+        </a>
+      </p>
 
       <h3 className="font-semibold mt-3">Habilidades Técnicas</h3>
       <p className="text-sm">
