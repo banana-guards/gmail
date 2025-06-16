@@ -5,7 +5,7 @@ import { Navbar } from "./components/Navbar";
 import { PanelMail } from "./pages/PanelMail";
 import { FeaturedMails } from "./pages/FeaturedMails";
 import { ImportantMails } from "./pages/ImportantMails";
-import { DeleteMails } from "./pages/deleteMails";
+import { DeleteMails } from "./pages/DeleteMails";
 import { SendMails } from "./pages/SendMails";
 import { Header } from "./components/Header/Header";
 

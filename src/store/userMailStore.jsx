@@ -39,6 +39,19 @@ export const useMailStore = create(
         });
       },
 
+      permanentlyDeleteMails: () => {
+        set((state) => {
+          const selectedIds = state.selectMails;
+
+          return {
+            deletedEmails: state.deletedEmails.filter(
+              (mail) => !selectedIds.includes(mail.id)
+            ),
+            selectMails: [],
+          };
+        });
+      },
+
       deleteSelectedMails: () => {
         set((state) => {
           const selectedIds = state.selectMails;
