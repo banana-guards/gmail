@@ -53,7 +53,7 @@ export const CardMail = ({ mail, onClick }) => {
 
       <button onClick={handleStarClick}>
         <GoStarFill
-          className={`mr-1.5 ${
+          className={`mr-1.5 cursor-pointer hover:text-yellow-400 ${
             isStarred ? "text-yellow-400" : "text-gray-400"
           }`}
           size={15}
@@ -62,7 +62,7 @@ export const CardMail = ({ mail, onClick }) => {
 
       <button onClick={handleImportantClick}>
         <MdLabelImportant
-          className={`mr-3 ${
+          className={`mr-3 cursor-pointer hover:text-yellow-400 ${
             isImportant ? "text-yellow-400" : "text-gray-400"
           }`}
           size={17}
