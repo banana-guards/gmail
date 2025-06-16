@@ -1,6 +1,5 @@
 import { IoFileTray } from "react-icons/io5";
 import { FiStar } from "react-icons/fi";
-import { FaRegClock } from "react-icons/fa";
 import { MdLabelImportantOutline } from "react-icons/md";
 import { MdSend } from "react-icons/md";
 import { NavbarButton } from "./Buttons/NavBarButton";

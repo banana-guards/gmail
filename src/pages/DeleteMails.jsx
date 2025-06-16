@@ -1,6 +1,6 @@
 import { useMailStore } from "../store/userMailStore";
 import { FaTrashAlt } from "react-icons/fa";
-import { CardMail } from "../components/CardMail/CardMail";
+import { CardMail } from "../components/CardMail/CardMailDelete";
 import { useNavigate } from "react-router";
 
 export const DeleteMails = () => {
@@ -35,13 +35,15 @@ export const DeleteMails = () => {
             No hay correos eliminados.
           </p>
         ) : (
-          deletedEmails.map((mail) => (
-            <CardMail
-              key={mail.id}
-              mail={mail}
-              onClick={() => handleClick(mail)}
-            />
-          ))
+          deletedEmails
+            .map((mail) => (
+              <CardMail
+                key={mail.id}
+                mail={mail}
+                onClick={() => handleClick(mail)}
+              />
+            ))
+            .reverse()
         )}
       </div>
     </div>

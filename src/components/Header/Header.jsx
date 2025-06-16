@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Logo from "../../assets/logo.png";
+import Logo from "../../assets/logo-modified.png";
 import Perfil from "../../assets/user.png";
 import { useNavigate } from "react-router";
 import { ModalHeader } from "./ModalHeader";
@@ -17,8 +17,16 @@ export const Header = () => {
 
   return (
     <header className="flex justify-between items-center h-16 py-1.5 pl-3.5 pr-7 bg-[#131314] text-white">
-      <button className="h-full w-[120px]" onClick={handleLogoClick}>
-        <img className="h-full w-auto object-contain" src={Logo} alt="Logo" />
+      <button
+        className="flex h-full items-center gap-2"
+        onClick={handleLogoClick}
+      >
+        <img
+          className="h-full aspect-square object-contain rounded-full py-1.5"
+          src={Logo}
+          alt="Logo"
+        />
+        <p className="font-mono text-white text-[1.4rem]">Meta-mail</p>
       </button>
 
       <div className="flex items-center">

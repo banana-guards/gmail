@@ -68,6 +68,9 @@ export const useMailStore = create(
             importantMails: state.importantMails.filter(
               (mail) => !selectedIds.includes(mail.id)
             ),
+            sendMails: state.sendMails.filter(
+              (mail) => !selectedIds.includes(mail.id)
+            ),
             selectMails: [],
           };
         });

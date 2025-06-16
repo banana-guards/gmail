@@ -40,6 +40,7 @@ export const Mail = () => {
     };
     addSentMail(newMail);
     setReply("");
+    alert("Correo enviado con exito");
   };
 
   return (

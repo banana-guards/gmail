@@ -1,39 +1,21 @@
-import { useMemo, useState } from "react";
+import { useMemo } from "react";
 import {
   MdOutlineCheckBoxOutlineBlank,
   MdOutlineCheckBox,
 } from "react-icons/md";
 import "./CardMail.css";
 import { useMailStore } from "../../store/userMailStore";
-import { GoStarFill } from "react-icons/go";
-import { MdLabelImportant } from "react-icons/md";
 
 export const CardMail = ({ mail, onClick }) => {
   const { id, username, title, body, date } = mail;
-  const importantMails = useMailStore((state) => state.importantMails);
-  const featuredEmails = useMailStore((state) => state.featuredEmails);
-  const isImportant = importantMails.some((m) => m.id === mail.id);
-  const isStarred = featuredEmails.some((m) => m.id === mail.id);
   const setSelectMail = useMailStore((state) => state.setSelectMails);
   const selectMails = useMailStore((state) => state.selectMails);
-  const markAsImportant = useMailStore((state) => state.markAsImportant);
-  const markAsFeatured = useMailStore((state) => state.markAsFeatured);
 
   const isSelected = useMemo(() => selectMails.includes(id), [selectMails, id]);
 
   const handleSelect = (e) => {
     e.stopPropagation();
     setSelectMail(id);
-  };
-
-  const handleStarClick = (e) => {
-    e.stopPropagation();
-    markAsFeatured(mail);
-  };
-
-  const handleImportantClick = (e) => {
-    e.stopPropagation();
-    markAsImportant(mail);
   };
 
   return (
@@ -44,36 +26,17 @@ export const CardMail = ({ mail, onClick }) => {
     >
       <button onClick={handleSelect}>
         {isSelected ? (
-          <MdOutlineCheckBox className="ml-8 mr-1.5 cursor-pointer" size={20} />
+          <MdOutlineCheckBox className="ml-8 mr-7 cursor-pointer" size={20} />
         ) : (
           <MdOutlineCheckBoxOutlineBlank
-            className="ml-8 mr-1.5 cursor-pointer"
+            className="ml-8 mr-7 cursor-pointer"
             size={20}
           />
         )}
       </button>
-
-      <button onClick={handleStarClick}>
-        <GoStarFill
-          className={`mr-1.5 cursor-pointer hover:text-yellow-400 ${
-            isStarred ? "text-yellow-400" : "text-gray-400"
-          }`}
-          size={15}
-        />
-      </button>
-
-      <button onClick={handleImportantClick}>
-        <MdLabelImportant
-          className={`mr-3 cursor-pointer hover:text-yellow-400 ${
-            isImportant ? "text-yellow-400" : "text-gray-400"
-          }`}
-          size={17}
-        />
-      </button>
-
       <h1
         onClick={onClick}
-        className="text-white font-medium w-[13%] mr-1.5 text-ellipsis max-[559px]:w-full"
+        className="text-white font-medium w-[8%] mr-1.5 text-ellipsis max-[559px]:w-full"
       >
         {username}
       </h1>
